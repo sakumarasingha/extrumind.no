@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EXTRUMIND - Die Correction Intelligence Solution</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #191f2b;
+            color: #f0f4fa;
+        }
+        header {
+            background: linear-gradient(100deg, #0b223a 70%, #295faa 130%);
+            padding: 2em 0 1.6em 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(10,10,30,0.07);
+        }
+        header img.logo {
+            width: 320px;
+            max-width: 80vw;
+            margin-bottom: 0.5em;
+            filter: drop-shadow(0 2px 6px #111);
+        }
+        header h1 {
+            font-size: 2.7em;
+            font-weight: 700;
+            margin: 0.2em 0 0.1em 0;
+            letter-spacing: 2px;
+            color: #fff;
+        }
+        header p {
+            font-size: 1.23em;
+            color: #cfdfff;
+            margin: 0.4em 0 0 0;
+        }
+        .container {
+            max-width:1050px;
+            margin:2em auto;
+            padding:0 1em;
+        }
+        .section {
+            background:rgba(25,31,43,0.92);
+            border-radius:17px;
+            box-shadow:0 2px 18px #273a5c33;
+            margin-bottom:2em;
+            padding:2em 2em 1.2em 2em;
+        }
+        .section-title {
+            font-size:2em;
+            color:#45b2ff;
+            font-weight:700;
+            margin-bottom:0.6em;
+        }
+        .flex {
+            display:flex;
+            gap:2em;
+            align-items:flex-start;
+            flex-wrap:wrap;
+        }
+        .flex img {
+            border-radius:10px;
+            box-shadow:0 2px 12px #3d86d799;
+            max-width:380px;
+            width:100%;
+            background:#222b36;
+            margin-bottom:1.4em;
+        }
+        .bullets {
+            margin:0; padding-left:1.3em;
+        }
+        .bullets li {
+            margin:0.6em 0;
+            line-height:1.7;
+        }
+        .steps {
+            margin-top:1em;
+        }
+        .steps h4 { color:#6ec2ff; margin-bottom:0.18em; }
+        .steps p { margin-top:0.2em; margin-bottom:1em; }
+        .highlight {
+            background:rgba(69,178,255,0.10);
+            border-left:6px solid #0298cc;
+            border-radius:7px;
+            padding:1em 1.3em;
+            margin:1em 0;
+        }
+        .cta {
+            text-align:center;
+        }
+        .cta h2 {
+            color:#23b57a;
+        }
+        .cta a {
+            display:inline-block;
+            background:#295faa;
+            color:#fff;
+            padding:1em 2.3em;
+            border-radius:6px;
+            font-size:1.2em;
+            text-decoration:none;
+            margin-top:1em;
+        }
+        @media (max-width:950px) {
+            .flex { flex-direction:column; align-items:stretch; }
+            .flex img { max-width:100%; }
+            .section { padding:1.2em; }
+        }
+
+         nav {
+      background: #131a26;
+      text-align: center;
+      box-shadow: 0 2px 18px #273a5c33;
+      margin-bottom: 2em;
+    }
+
+    nav ul {
+      display: inline-block;
+      padding: 0.2em 1.2em;
+      margin: 0;
+      list-style: none;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 1.2em;
+    }
+
+    nav a {
+      color: #71d8ff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.13em;
+      transition: color 0.15s;
+      letter-spacing: 1px;
+      padding: 0.3em 0.8em;
+      border-radius: 6px;
+    }
+
+    nav a:hover,
+    nav a:focus,
+    nav a.active {
+      color: #fff;
+      background: #295faa;
+    }
+
+    @media (max-width: 700px) {
+      nav ul {
+        display: block;
+      }
+
+      nav li {
+        display: block;
+        margin: 0.6em 0;
+      }
+
+      nav {
+        margin-bottom: 1em;
+      }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EXTRUMIND</h1>
+        <p>Transforming Extrusion with Intelligence</p>
+    </header>
+      <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+    </ul>
+  </nav>
+    <div class="container">
+        <!-- Product Overview -->
+        <div class="section flex">
+            <div>
+                <h2 class="section-title">Next-Gen AI Die Correction Platform</h2>
+                <p>
+                    Revolutionize your extrusion process with EXTRUMIND's AI Die Correction Intelligence Module. The system leverages real-time data, AI-powered feedback loops, and historical experience to ensure precise, efficient corrections for die manufacturing and extrusion quality.
+                </p>
+                <ul class="bullets">
+                    <li>Seamless integration with QA/QC and production data</li>
+                    <li>AI-driven correction recommendations and process optimization</li>
+                    <li>Reduce error rates, improve efficiency and traceability</li>
+                    <li>Continuous self-learning and adaptive improvements</li>
+                </ul>
+            </div>
+            <img src="images/IMG-20230911-WA0015.jpg" alt="Die Correction Process Overview" />
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Correction Intelligence Workflow</h2>
+            <div class="flex">
+                <img src="images/IMG-20230911-WA0014.jpg" alt="AI Process Flowchart" />
+                <div>
+                    <div class="steps">
+                        <h4>Step 1: Data Analysis & Profile Defect Correlation</h4>
+                        <p>Analyze quality and velocity parameters, surface and dimensional defects, correlating 2D profiles with profile drawings to pinpoint issues.</p>
+                        <h4>Step 2: Identify Correction Options</h4>
+                        <p>Identify possible corrections using AI, referencing previous cases and analyzing areas needing velocity or dimensional changes.</p>
+                        <h4>Step 3: Choose and Execute Corrections</h4>
+                        <p>Rank, select, and implement optimal correction techniques—considering past learnings and resource availability.</p>
+                        <h4>Step 4: Measure, Evaluate & Feedback</h4>
+                        <p>Iterative improvement via test result feedback, continuous self-learning, and recording all changes for traceability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section flex">
+            <img src="images/Input and out put modules.png" alt="Input Output Modules" />
+            <div>
+                <h2 class="section-title">System Modules</h2>
+                <div class="highlight">
+                    <ul class="bullets">
+                        <li><strong>Input Module:</strong> Aggregates data from profile stages, design, and quality/testing.</li>
+                        <li><strong>Processing Module:</strong> AI engine analyzes current and historical data for defect recognition.</li>
+                        <li><strong>Output Module:</strong> Provides actionable correction insights, dashboards, and training feedback.</li>
+                    </ul>
+                </div>
+                <ul class="bullets">
+                    <li>Profile Categorization & Critical Area Detection</li>
+                    <li>Material & Production Tracking</li>
+                    <li>Die Suggestion & CEO Analytics Dashboard</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Stepwise Correction Approach</h2>
+            <img src="images/Die Correction Intelligence Module.png" alt="Die Correction Intelligence Module" style="width:100%;max-width:680px;display:block;margin:1em auto;" />
+            <ol class="bullets steps">
+                <li>Dimensional & surface quality analysis versus characterized profile</li>
+                <li>Velocity analysis for nose piece segments and defect correlation</li>
+                <li>Inspection of flow control and affected die segments</li>
+                <li>AI-driven correction option identification</li>
+                <li>Quantitative correction via algorithm</li>
+                <li>Feedback and self-learning for process refinement</li>
+                <li>Iterative proposal of next corrections based on test data</li>
+            </ol>
+        </div>
+
+        <div class="section cta">
+            <h2>Ready to transform your extrusion quality?</h2>
+            <p>Contact EXTRUMIND today and unlock the power of intelligent, automated die correction.</p>
+            <a href="mailto:info@extrumind.com">Get Started</a>
+        </div>
+    </div>
+</body>
+</html>
